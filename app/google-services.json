@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667960308581",
+    "project_id": "appentrenadorbalonmano-6c11c",
+    "storage_bucket": "appentrenadorbalonmano-6c11c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667960308581:android:f80f236127796b4435678c",
+        "android_client_info": {
+          "package_name": "com.wenceslao.appentrenadorbalonmano"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnnKQ8u4NzItd26TobSuRzivfDhWCa2K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

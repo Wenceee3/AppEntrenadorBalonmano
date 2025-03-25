@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".registro_user_activity.WelcomeActivity">
+
+    <!-- Logo más grande -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_bm" />
+
+    <!-- Título más grande con borde negro -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/roboto_black"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="HandScore"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <!-- Slogan relacionado con el balonmano con borde negro -->
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/roboto_bolditalic"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="“Donde la estrategia y la pasión se encuentran”"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <!-- Botón de Iniciar Sesión más grande y pegado al fondo -->
+    <Button
+        android:id="@+id/iniciarSesion"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/botones"
+        android:drawablePadding="10dp"
+        android:elevation="6dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:radius="12dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="6"
+        android:shadowDy="6"
+        android:shadowRadius="7"
+        android:stateListAnimator="@null"
+        android:text="Iniciar Sesión"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:translationZ="4dp" />
+
+</LinearLayout>
